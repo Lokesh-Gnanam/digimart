@@ -1,0 +1,27 @@
+.analytics {
+  height: 100%;
+  padding: 20px;
+  background: #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0px 14px 16px rgba(0, 225, 255, 0.1);
+}
+
+.analytics h2 {
+  font-size: 22px;
+  color: rgb(2, 194, 178);
+  
+  
+}
+
+.analytics .report {
+  margin-top: 20px;
+  padding: 15px;
+  color: black;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.analytics p{
+  text-align: start;
+}

@@ -1,0 +1,84 @@
+.dashboard {
+  background: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  border-radius: 10px;
+
+}
+
+.dashboard h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(2, 194, 178);
+  margin-left: 40%;
+  margin-top: 20px;
+  
+}
+.charts{
+  margin-top: 30px;
+  margin-left: -45%;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart-2 {
+  height: 300px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 13px;
+  background: rgb(255, 255, 255);
+
+  
+}
+.chart-3 {
+  height: 300px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 13px;
+  
+}
+.chart-4 img{
+  height: 400px
+}
+
+.chart-4{
+  margin-top: 530px;
+  margin-left: -850px;
+
+}
+
+*{
+  text-align: center;
+}
+
+.chart-1 img {
+  margin-top: 50px;
+  background: transparent;
+  height: 350px;
+}
+
+/* .chart-1{
+  /* margin-top: 500px;
+  margin-left: -10px;
+  width: 400px;
+} */
+
+.chart-2 img {
+  margin-top: 20px;
+  height: 180px;
+}
+.chart-3 img {
+  margin-top: -100px;
+  height: 180px;
+}
+
+.chartV{
+  margin-left: 160px;
+}

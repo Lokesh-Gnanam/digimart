@@ -5,9 +5,9 @@ h1 {
   font-family:"montserrat";
 }
 
-/* header{
-  width: 200%;
-} */
+header{
+  width: flex;
+}
 
 
 /* .head{

@@ -1,5 +1,5 @@
 .notifications {
-  height: 400px;
+  height: flex;
   padding: 20px;
   background: #edf2f7;
   border-radius: 10px;

@@ -1,0 +1,55 @@
+.log h2{
+    color: rgb(24, 189, 189);
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.log{
+    margin-left: 30%;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7%;
+    height: 350px;
+    background-color: rgba(29, 30, 29, 0.731);
+}
+
+.log .f{
+    display: flex;
+    flex-direction: column;
+}
+.log form{
+    display: flex;
+    flex-direction: column;
+}
+
+.log .f input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.log .f button{
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    border: greenyellow;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.log p{
+    color: white;
+    margin-bottom: 10px;
+}
+.log a{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: -10px;
+}
+
+.log .f button:hover{
+    background-color: rgb(99, 212, 54);
+}

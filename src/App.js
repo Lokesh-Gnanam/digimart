@@ -27,8 +27,8 @@ const App = () => {
         return <Notifications />;
       case 'userManagement':
         return <UserManagement />;
-      // case 'login':
-      //   return <Login />;  
+      case 'login':
+        return <Login />;  
       default:
         return <Dashboard />;
     }
@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="app">
-      {/* <Sample/> */}
+       {/* <Sample/> */}
       <Header />
       
       <div className="main-content">
@@ -45,6 +45,8 @@ const App = () => {
           {renderPage()}
         </div>
       </div>
+      
+      
     </div>
   );
 };

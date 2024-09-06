@@ -2,6 +2,11 @@
 import './styles/CampaignCreation.css';
 import React, { useState } from "react";
 
+function cam(){
+  alert("You are successfully Campaign Created :)")
+}
+
+
 const CampaignForm = () => {
  
   
@@ -49,7 +54,7 @@ const CampaignForm = () => {
           required
         />
       </div>
-      <button type="submit" className="submit-btn">
+      <button type="submit" onClick={cam} className="submit-btn">
         Save Campaign
       </button>
     </form>

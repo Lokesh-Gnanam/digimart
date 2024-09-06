@@ -31,4 +31,5 @@
 
 .notifications li:hover{
   color: #edf2f7;
+  cursor: auto;
 }

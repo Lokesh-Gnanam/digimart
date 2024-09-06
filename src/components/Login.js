@@ -1,5 +1,10 @@
 import React from 'react'
 import './styles/Login.css'
+
+function log(){
+  alert("You are successfully login :)")
+}
+
 const Login = () => {
   return (
     <div className='log'>
@@ -11,7 +16,7 @@ const Login = () => {
           </form>
           <p>Don't have any account !</p>
           <h5><a href='#'>Register</a></h5>
-          <button>Login</button>
+          <button type='submit' onClick={log}>Login</button>
         </div>
     </div>
   );

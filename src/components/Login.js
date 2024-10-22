@@ -1,8 +1,10 @@
 import React from 'react'
 import './styles/Login.css'
 
-function log(){
+function log({setCurrentPage}){
   alert("You are successfully login :)")
+  
+  
 }
 
 const Login = () => {

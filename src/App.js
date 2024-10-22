@@ -1,52 +1,59 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+// import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
 import CampaignCreation from './components/CampaignCreation';
 import Analytics from './components/Analytics';
 import Notifications from './components/Notifications';
-import UserManagement from './components/UserManagement';
+// import UserManagement from './components/UserManagement';
 import './App.css';
 import Login from './components/Login';
+import  {  Routes, Route, Link, Router } from 'react-router-dom';
 
 
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState('dashboard');
-
-  const renderPage = () => {
-    switch (currentPage) {
-
-      case 'dashboard':
-        return <Dashboard />;
-      case 'campaigns':
-        return <CampaignCreation />;
-      case 'analytics':
-        return <Analytics />;
-      case 'notifications':
-        return <Notifications />;
-      case 'userManagement':
-        return <UserManagement />;
-      case 'login':
-        return <Login />;  
-      default:
-        return <Dashboard />;
-    }
-  };
+  
+  
 
   return (
     <div className="app">
-       {/* <Sample/> */}
+      
       <Header />
       
       <div className="main-content">
-        <Sidebar selectPage={setCurrentPage} />
         <div className="page-content">
-          {renderPage()}
+        <Router>
+
+        <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Routes>
+          <Route path="/" Component={<Login />} />
+          <Route path="/about" Component={<Dashboard />} />
+          <Route path="/contact" Component={<CampaignCreation />} />
+          <Route path="/contact" Component={<Analytics />} />
+          <Route path="/contact" Component={<Notifications />} />
+        </Routes>
+        </div>
+        </Router>
+
         </div>
 
       </div>
-      {/* <Login/> */}
+     
       
       
     </div>

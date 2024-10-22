@@ -1,6 +1,6 @@
 
 import './styles/CampaignCreation.css';
-import React, { useState } from "react";
+import React from "react";
 
 function cam(){
   alert("You are successfully Campaign Created :)")

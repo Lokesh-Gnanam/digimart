@@ -9,7 +9,7 @@ const Sidebar = ({ selectPage }) => {
         <li onClick={() => selectPage('campaigns')}>Campaign Creation</li>
         <li onClick={() => selectPage('analytics')}>Analytics</li>
         <li onClick={() => selectPage('notifications')}>Notifications</li>
-        <li onClick={() => selectPage('userManagement')}>User Management</li>
+        {/* <li onClick={() => selectPage('userManagement')}>User Management</li> */}
       </ul>
     </aside>
   );
